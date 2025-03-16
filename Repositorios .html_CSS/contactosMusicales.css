@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat; /* Fondo similar a WhatsApp */
+    margin: 5;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor de los contactos */
+.whatsapp-container {
+    width: 100%;
+    max-width: 500px; /* Limitamos el tamaño máximo de la lista */
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 10px;
+   
+}
+
+/* Estilo para cada contacto */
+.contacto {
+    display: flex;
+    margin: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid slategray; /* Línea de separación entre los contactos */
+
+
+
+}
+
+/* Imagen de perfil */
+.imagen-contacto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción */
+    margin-right: 10px;
+}
+
+/* Información del contacto */
+.info-contacto {
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+
+/* Nombre del contacto */
+.nombre {
+    font-weight: bold;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Último mensaje del contacto */
+.mensaje {
+    font-size: 14px;
+    color: honeydew;
+    margin: 10;
+}
