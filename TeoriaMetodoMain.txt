@@ -1,0 +1,72 @@
+
+/* ====EXPLICACION ====
+ * Todo en Java va a necesitar un archivo con una clase.
+ * El nombre del archivo es el mismo que el nombre de la clase.
+ * Solo puede llegar a ser una clase pública por archivo, ya lo veremos.
+ * En un proyecto, la clase principal tendrá el método principal ()
+ * El método principal siempre se escribe de la misma manera.
+ *
+ * Dentro del método principal () haz que el programa mostrar por pantalla
+ * "Hola Mundo"
+ *
+ ==== "RECORDATORIOS ====
+ * La clase necesita las palabras clave clase pública.
+ * El alcance de la clase va entre llaves
+ *
+ * El método principal requiere las palabras clave vacío público estático.
+ * Los parámetros de los principales son una array de String que reciben como nombre args
+ * Los parámetros va entre paréntesis ()
+ * El alcance del método principal va entre llaves
+ *
+
+-=============== =====
+//= EJERCICIO =
+-=============== =====
+
+// Declara la clase en la siguiente línea
+
+    // Declara el método principal en la siguiente línea (ten cuidado con las llaves de la clase)
+    // Una llave abierta, pero la llave que cierra que tiene que estar DESPUES del método principal
+
+        //Aprobación para imprimir "Hola Mundo", empieza algo algo como System.out.........
+        // Ten cuidado con las llaves del método principal, que cierra ciene que está pasando después del Hola Mundo
+
+
+
+/*
+ =======================
+ * = COMPILANDO =
+ =======================
+ *
+ * Una vez tienes preparado el ejercicio llegará el momento de ver si funciona correctamente.
+ * Hay que compilador.
+ * IDEs como Eclipse, que conoceremos a lo largo del curso, lo automáticamente hace.
+ * Otros requisitos instrucciones desde la terminal.
+ *
+ ====TERMINAL ====
+ * Abre una terminal, lo mismo da que sea la interna de Visual Studio Code o externo.
+ * Sigras la de VSC tiene el botón arriba, en la esquina superior derecha.
+ * El botón es un partido cuadrado horizontalmente.
+ * Te abrirá una partición inferior con varias opciones, seleccionando el terminal de la met.
+ * Necesitas navegar donde hasta está el archivo que vas a compilar
+ *
+ * -----RECORDATORIO----
+ * ls --a lista de archivos que hay en el directorio en el que está
+ * cd .nombre directorio. --a accede a la carpeta
+ * cd ... ----sube de nivel, a la carpeta que se se encuentra en un nivel superior
+ *
+ ====COMPILAR====
+ * javac --lamómos a la herramienta para compilar el programa que acabamos de crear
+ * $ javac nombre.archivo.java
+ *
+ * java --a-mos el programa que acabamos de crear y nos mostrará por pantalla
+ * lo que se puede consultar para una locura
+ * $ java nombre.archivo
+ *
+ * ----CONSIDERACIONES----
+ * Para compilar se necesita la extensión del archivo *.java
+ * Si todo va bien no te mostrar ningún error.
+ * Si se detectan problemas te mostrará el error en la línea correspondiente.
+ * Cuando ya se compaginizan y ejecutas el programa salir en la terminal
+ * Hola Mundo
+ * */ 
